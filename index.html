@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Admission Form</title>
+<link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <video id="bgVideo" autoplay muted loop>
+    <source src="https://media.istockphoto.com/id/1398083803/video/group-happy-graduates-throw-caps.mp4?s=mp4-640x640-is&k=20&c=iy96a-0VsMGDnszKYQUoNDLo9kaUaD8F18GAi4l4YEk=" type="video/mp4">
+  </video>
+
+    <div class="form">
+        <h2>College Admission Form</h2>
+ 
+            <input type="text" id="fname"  placeholder="First Name" ><br><br>
+
+          <input type="text" id="lname"  placeholder="Last Name" ><br><br>
+
+          <input type="date" id="dob"  placeholder="Date of Birth" ><br><br>
+        <label>Gender:</label>
+      <div class="gender">
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <label><input type="radio" name="gender" value="other" required> Other</label>
+      </div><br><br>
+
+    <input type="email" id="email"  placeholder="Email" ><br><br>
+
+    <input type="email" id="alt_email"  placeholder="Alternate Email"><br><br>
+
+    <input type="tel" id="phone"  placeholder="Phone Number" ><br><br>
+
+    <input type="tel" id="alt_phone"  placeholder="Alternate Phone Number"><br><br>
+
+    <textarea id="present_address"  rows="3" placeholder="Present Address" ></textarea><br><br>
+    <input type="text" id="pincode"  placeholder="pincode" ><br><br>
+    
+    <textarea id="permanent_address"  rows="3" placeholder="Permanent Address" ></textarea><br><br>
+    <input type="text" id="pincode2"  placeholder="pincode" ><br><br>
+
+    <input type="text" id="qualification"  placeholder="Previous Qualification" ><br><br>
+
+    <input type="text" id="marks" placeholder="Marks/Percentage"><br><br>
+
+
+    <select id="course">
+  <option value="">Course Applying For</option>
+  <option value="CSE">CSE</option>
+  <option value="IT">IT</option>
+  <option value="AI&ML">AI&ML</option>
+  <option value="CIVIL">CIVIL</option>
+  <option value="MECH">MECH</option>
+</select><br><br>
+<div class="photobox">
+    <label>Upload Your Passport Size Photo:-<input type="file" class="file" id="photo" placeholder="Upload Your Passport Size Photo"></label><br><br>
+</div>
+<div class="photobox">
+    <label>Upload Your Signature:-<input type="file" class="file" id="sign" placeholder="Upload Your Signature"></label><br><br>
+</div>
+<div class="photobox">
+    <label>Upload Previous Qualification Marksheet:-<input type="file" class="file" id="marksheet" placeholder="Upload Previous Qualification Marksheet"></label><br><br>
+</div>
+<div class="photobox">
+    <label>Upload ID Proof:-<input type="file" class="file" id="id_proof" placeholder="Upload ID Proof"></label><br><br>
+</div>
+    <label><input type="checkbox" id="checkbox">Accept Terms & Conditions</label><br><br>
+    
+    <button type="button" id="submit">Submit</button>
+  
+ </div>
+ <script src="validations.js"></script>
+</body>
+</html>
