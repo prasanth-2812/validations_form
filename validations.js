@@ -45,8 +45,8 @@ function myfunction()
     if (lname.value===""){
      ErrorMsg(lname,"Please Enter Valid last name!")
         }
-     else if(!/^[a-zA-Z\s]{3,}$/.test(fname.value)){
-            ErrorMsg(fname,"Please Enter valid Last Name!")
+     else if(!/^[a-zA-Z\s]{3,}$/.test(lname.value)){
+            ErrorMsg(lname,"Please Enter valid Last Name!")
         }
     
     if (dob.value===""){
