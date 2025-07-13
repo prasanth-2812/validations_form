@@ -105,7 +105,7 @@ input[type="file"] {
 }
 @keyframes formSlideUp {
   0% {
-    transform: translateY(100px); /* Kinda nunchi start */
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
